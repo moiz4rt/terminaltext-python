@@ -1,0 +1,25 @@
+#!/usr/bin/env python3
+
+import code
+
+def simple_editor():
+    print("Digite seu código Python abaixo.")
+    print("Pressione Ctrl+D (Linux/Mac) ou Ctrl+Z seguido de Enter (Windows) para executar o buffer.")
+    print("-" * 50)
+
+    buffer = []
+
+    try:
+        while True:
+            line = input(">>> ")
+            buffer.append(line)
+    except EOFError:
+        print("\n\n--- Executando o código... ---\n")
+        code_as_string = "\n".join(buffer)
+        try:
+            exec(code_as_string)
+        except Exception as e:
+            print("Erro ao executar o código:", e)
+
+if __name__ == "__main__":
+    simple_editor()
