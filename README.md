@@ -9,7 +9,7 @@
 
 ## Exemplo de execução
 
-![TerminalText Demo](images/editor-demo.gif)
+![TerminalText Demo](images/editor-demo.png)
 
 ## Como Usar
 
