@@ -14,16 +14,16 @@
 ## Como Usar
 
 1. Após a instalação, abra o terminal.
-2. Digite o comando `terminaltext` para iniciar o editor.
+2. Digite o comando `tt` para iniciar o editor.
 3. Digite o código ou texto desejado diretamente no terminal.
 4. Para salvar e sair, pressione a combinação de teclas definida (ex: `Ctrl+C`).
 
 ## Instalação
 
-1. Baixe o script `editor` e mova-o para um diretório acessível no seu sistema (ex: `/usr/local/bin`).
+1. Baixe o script `tt` e mova-o para um diretório acessível no seu sistema (ex: `/usr/local/bin`).
 2. Torne o script executável:
    ```bash
-   sudo chmod +x /usr/local/bin/editor
+   sudo chmod +x /usr/local/bin/tt
 
 ## Contribuição
 
